@@ -1,11 +1,11 @@
 # UNAI-MENESES-PT2
 # Projecte: Instal·lació i Configuració d'ownCloud amb Virtualització mitjançant IsardVDI
 
-## Descripció del Projecte
+## Descripció del projecte
 
-Aquest projecte consisteix en la instal·lació i configuració de la plataforma de sincronització i compartició d'arxius **ownCloud** utilitzant la virtualització amb **IsardVDI**. S'ha detallat el procés d'instal·lació en un entorn controlat, així com la configuració dels usuaris, rols, permisos i administració d'arxius dins de la plataforma.
+Aquest projecte consisteix en la instal·lació i configuració de **ownCloud** utilitzant **IsardVDI**. S'ha detallat el procés d'instal·lació en un entorn controlat, així com la configuració dels usuaris, rols, permisos i administració d'arxius dins de la plataforma.
 
-L'objectiu principal és proporcionar una guia pas a pas per a la instal·lació, configuració i gestió d'ownCloud en un entorn virtualitzat. Això permet una gestió eficient dels arxius i l'assignació de permisos de forma senzilla i segura.
+L'objectiu principal és proporcionar una guia pas a pas per a la instal·lació, configuració i gestió d'ownCloud. Això permet una gestió eficient dels arxius i l'assignació de permisos de forma senzilla i segura.
 
 ## Enllaços als altres fitxers
 
@@ -17,7 +17,7 @@ A continuació es mostren els enllaços als fitxers més detallats per a la inst
 
 ## Observacions
 
-Durant el procés d'instal·lació, es van trobar alguns problemes menors relacionats amb la configuració de xarxes virtuals que van requerir solucions personalitzades. Aquests problemes es detallen al manual d'instal·lació, amb les solucions implementades per garantir el correcte funcionament del sistema.
+
 
 ## Autor
 
