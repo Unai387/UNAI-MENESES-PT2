@@ -1,5 +1,5 @@
 # UNAI-MENESES-PT2
-# Projecte: Instal·lació i Configuració d'ownCloud amb Virtualització mitjançant IsardVDI
+# Instal·lació i Configuració d'ownCloud mitjançant IsardVDI
 
 ## Descripció del projecte
 
