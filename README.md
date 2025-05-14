@@ -22,5 +22,5 @@ Durant el procés d'instal·lació, es van trobar alguns problemes menors relaci
 ## Autor
 
 - **Unai Meneses Pulido**
-- Més informació al repositori: [UNAI-MENESES-PT2]()
+- Més informació al repositori: [UNAI-MENESES-PT2](https://github.com/Unai387/UNAI-MENESES-PT2.git)
 
