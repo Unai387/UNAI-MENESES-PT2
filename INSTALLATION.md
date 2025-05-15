@@ -64,26 +64,26 @@ sudo update-alternatives --config php
 ```
 Tendremos que seleccionar la versión que acabamos de instalar, la cual es PHP 7.4, marcaremos el numero en el que salga la version instalada, en este caso el numero 1.
 
-<img src="7.png" alt="7" width="500" height="500">
+<img src="7.png" alt="7" width="1000" height="500">
 
 Activa los módulos de Apache:
 
 ```bash
 sudo a2enmod proxy_fcgi setenvif
 ```
-<img src="8.png" alt="8" width="500" height="500">
+<img src="8.png" alt="8" width="1000" height="500">
 
 ```bash
 sudo a2enconf php7.4-fpm
 ```
-<img src="8.png" alt="8" width="500" height="500">
+<img src="8.png" alt="8" width="1000" height="500">
 
 Reinicia el servidor Apache:
 
 ```bash
 sudo service apache2 restart
 ```
-<img src="8.png" alt="8" width="500" height="500">
+<img src="8.png" alt="8" width="1000" height="500">
 
 ## 1. Preparación del entorno
 
@@ -95,11 +95,11 @@ Antes de comenzar, actualizamos los repositorios y el sistema:
 sudo apt update
 sudo apt upgrade
 ```
-<img src="9.png" alt="8" width="500" height="500">
+<img src="9.png" alt="8" width="1000" height="500">
 
 <img src="10.png" alt="8" width="500" height="500">
 
-<img src="10b.png" alt="8" width="500" height="500">
+<img src="10b.png" alt="8" width="1000" height="500">
 
 ### 1.2. Instalación de Apache2, MySQL, PHP, etc...
 
@@ -108,14 +108,14 @@ sudo apt upgrade
 ```bash
 sudo apt install -y apache2
 ```
-<img src="11.png" alt="8" width="500" height="500">
+<img src="11.png" alt="8" width="1000" height="500">
 
 #### Instalación del servidor de base de datos MySQL
 
 ```bash
 sudo apt install -y mysql-server
 ```
-<img src="12.png" alt="8" width="500" height="500">
+<img src="12.png" alt="8" width="750" height="500">
 
 #### Instalación de PHP
 
@@ -123,16 +123,16 @@ sudo apt install -y mysql-server
 sudo apt install -y php libapache2-mod-php
 sudo apt install -y php-fpm php-common php-mbstring php-xmlrpc php-soap php-gd php-xml php-intl php-mysql php-cli php-ldap php-zip php-curl
 ```
-<img src="13.png" alt="8" width="500" height="500">
+<img src="13.png" alt="8" width="750" height="500">
 
-<img src="14.png" alt="8" width="500" height="500">
+<img src="14.png" alt="8" width="750" height="500">
 
 ### 1.3. Reiniciar servidor Apache2
 
 ```bash
 sudo systemctl restart apache2
 ```
-<img src="15.png" alt="8" width="500" height="500">
+<img src="15.png" alt="8" width="1000" height="500">
 
 ## 2. Configuración de MySQL
 
@@ -141,7 +141,7 @@ sudo systemctl restart apache2
 ```bash
 sudo mysql
 ```
-<img src="16.png" alt="8" width="500" height="500">
+<img src="16.png" alt="8" width="750" height="500">
 
 ### 2.2. Creación de la base de datos
 
@@ -150,7 +150,7 @@ Ejecutamos dentro de la consola MySQL:
 ```bash
 CREATE DATABASE bbdd;
 ```
-<img src="16.png" alt="8" width="500" height="500">
+<img src="16.png" alt="8" width="750" height="500">
 
 ### 2.3. Creación de usuario y asignación de permisos
 
@@ -159,7 +159,7 @@ CREATE USER 'usuario'@'localhost' IDENTIFIED WITH mysql_native_password BY 'pass
 GRANT ALL ON bbdd.* to 'usuario'@'localhost';
 exit
 ```
-<img src="16.png" alt="8" width="500" height="500">
+<img src="16.png" alt="8" width="750" height="500">
 
 ## 3. Instalación de la aplicación web
 
@@ -172,20 +172,20 @@ sudo unzip app-web.zip
 sudo cp -R app-web/. /var/www/html
 sudo rm -rf app-web/
 ```
-<img src="17.png" alt="8" width="500" height="500">
+<img src="17.png" alt="8" width="1000" height="500">
 
-<img src="18.png" alt="8" width="500" height="500">
+<img src="18.png" alt="8" width="1000" height="500">
 
-<img src="19.png" alt="8" width="500" height="500">
+<img src="19.png" alt="8" width="1000" height="500">
 
-<img src="20.png" alt="8" width="500" height="500">
+<img src="20.png" alt="8" width="1000" height="500">
 
 ### 3.2. Eliminación de index.html
 
 ```bash
 sudo rm -rf /var/www/html/index.html
 ```
-<img src="21.png" alt="8" width="500" height="500">
+<img src="21.png" alt="8" width="1000" height="500">
 
 ### 3.3. Configuración de permisos
 
@@ -194,9 +194,9 @@ cd /var/www/html
 sudo chmod -R 775 .
 sudo chown -R usuario:www-data .
 ```
-<img src="18.png" alt="8" width="500" height="500">
+<img src="18.png" alt="8" width="1000" height="500">
 
-<img src="22.png" alt="8" width="500" height="500">
+<img src="22.png" alt="8" width="1000" height="500">
 
 ## 4. Acceso a ownCloud con los siguientes datos
 
