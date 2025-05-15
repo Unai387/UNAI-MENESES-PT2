@@ -4,39 +4,80 @@
 
 Este manual describe el proceso completo para instalar y configurar un entorno de servidor web con Apache2 y MySQL, así como la instalación de una aplicación web en dicho entorno. El directorio raíz por defecto de Apache2 es `/var/www/html`, donde deberemos colocar los archivos de nuestra aplicación para acceder a ella mediante `http://localhost`.
 
-1. Preparación del sistema
-bash
-# Instalar prerrequisitos
+## Instalación y Configuración de Plataformas Cloud
+
+Este documento explica cómo instalar diferentes plataformas cloud en un servidor web.
+
+## Información OwnCloud
+
+* ***OwnCloud***: http://www.owncloud.org
+
+## Descargar OwnCloud
+
+### OwnCloud Server
+https://download.owncloud.com/server/stable/owncloud-complete-20240724.zip
+
+## Instalación de PHP 7.4 en Ubuntu 24.04
+
+Para instalar OwnCloud necesitaremos PHP 7.4. Sigue estos pasos para instalarlo:
+
+Actualiza las listas de paquetes e instala los prerrequisitos:
+
+```bash
 sudo apt install software-properties-common -y
+```
 
-# Añadir repositorio de PHP
+Añade el repositorio de PHP:
+
+```bash
 LC_ALL=C.UTF-8 sudo add-apt-repository ppa:ondrej/php -y
+```
 
-# Actualizar repositorios
+Actualiza los repositorios:
+
+```bash
 sudo apt update
-2. Instalación de PHP y módulos
-bash
-# Instalar PHP 7.4 base
+```
+
+Instala PHP 7.4:
+
+```bash
 sudo apt install php7.4 -y
+```
 
-# Integrar con Apache
+Integra PHP con Apache:
+
+```bash
 sudo apt install -y php libapache2-mod-php7.4
+```
 
-# Instalar extensiones necesarias
+Instala las extensiones necesarias:
+
+```bash
 sudo apt install -y php7.4-fpm php7.4-common php7.4-mbstring php7.4-xmlrpc php7.4-soap php7.4-gd php7.4-xml php7.4-intl php7.4-mysql php7.4-cli php7.4-ldap php7.4-zip php7.4-curl
-3. Configuración final
-bash
-# Seleccionar versión de PHP
+```
+
+Configura la versión de PHP:
+
+```bash
 sudo update-alternatives --config php
+```
 
-# Activar módulos de Apache
+Activa los módulos de Apache:
+
+```bash
 sudo a2enmod proxy_fcgi setenvif
+```
+
+```bash
 sudo a2enconf php7.4-fpm
+```
 
-# Reiniciar Apache
+Reinicia el servidor Apache:
+
+```bash
 sudo service apache2 restart
-
-
+```
 ## 1. Preparación del entorno
 
 ### 1.1. Actualización del sistema
