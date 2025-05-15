@@ -172,20 +172,20 @@ sudo unzip app-web.zip
 sudo cp -R app-web/. /var/www/html
 sudo rm -rf app-web/
 ```
-<img src="17.png" alt="8" width="1000" height="500">
+<img src="17.png" alt="8">
 
-<img src="18.png" alt="8" width="1000" height="500">
+<img src="18.png" alt="8">
 
-<img src="19.png" alt="8" width="1000" height="500">
+<img src="19.png" alt="8">
 
-<img src="20.png" alt="8" width="1000" height="500">
+<img src="20.png" alt="8">
 
 ### 3.2. Eliminación de index.html
 
 ```bash
 sudo rm -rf /var/www/html/index.html
 ```
-<img src="21.png" alt="8" width="1000" height="500">
+<img src="21.png" alt="8">
 
 ### 3.3. Configuración de permisos
 
