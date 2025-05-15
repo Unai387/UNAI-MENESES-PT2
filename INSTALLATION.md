@@ -194,9 +194,9 @@ cd /var/www/html
 sudo chmod -R 775 .
 sudo chown -R usuario:www-data .
 ```
-<img src="18.png" alt="8" width="1000" height="500">
+<img src="18.png" alt="8">
 
-<img src="22.png" alt="8" width="1000" height="500">
+<img src="22.png" alt="8">
 
 ## 4. Acceso a ownCloud con los siguientes datos
 
