@@ -9,7 +9,7 @@ Este documento explica paso a paso cómo instalar y configurar ownCloud en un en
 
 Abrimos un navegador web y accedemos a la dirección IP del servidor donde se instalará ownCloud. Esto nos lleva a la página inicial del instalador.
 
-<img src="captures/23.png" alt="Pantalla inicial de ownCloud" width="1000" height="500">
+<img src="23.png" alt="Pantalla inicial de ownCloud" width="1000" height="500">
 
 ---
 
@@ -17,7 +17,7 @@ Abrimos un navegador web y accedemos a la dirección IP del servidor donde se in
 
 Introducimos un nombre de usuario y contraseña para el administrador. También seleccionamos el directorio de almacenamiento de datos.
 
-<img src="captures/24.png" alt="Creación del usuario administrador" width="1000" height="500">
+<img src="24.png" alt="Creación del usuario administrador" width="1000" height="500">
 
 ---
 
@@ -25,7 +25,7 @@ Introducimos un nombre de usuario y contraseña para el administrador. También 
 
 Seleccionamos el tipo de base de datos (MySQL/MariaDB), e introducimos el usuario, contraseña, y nombre de la base de datos. Confirmamos la instalación.
 
-<img src="captures/25.png" alt="Configuración de la base de datos" width="1000" height="500">
+<img src="25.png" alt="Configuración de la base de datos" width="1000" height="500">
 
 ---
 
@@ -33,7 +33,7 @@ Seleccionamos el tipo de base de datos (MySQL/MariaDB), e introducimos el usuari
 
 Una vez introducidos todos los datos, ownCloud comienza la instalación de los componentes y configuración interna del sistema.
 
-<img src="captures/26.png" alt="Proceso de instalación" width="1000" height="500">
+<img src="26.png" alt="Proceso de instalación" width="1000" height="500">
 
 ---
 
@@ -41,7 +41,7 @@ Una vez introducidos todos los datos, ownCloud comienza la instalación de los c
 
 Tras la instalación, se accede al escritorio web de ownCloud, donde se muestra la interfaz de usuario con opciones de archivos, configuración, etc.
 
-<img src="captures/28.png" alt="Interfaz principal de ownCloud" width="1000" height="500">
+<img src="28.png" alt="Interfaz principal de ownCloud" width="1000" height="500">
 
 ---
 
@@ -49,7 +49,7 @@ Tras la instalación, se accede al escritorio web de ownCloud, donde se muestra 
 
 Se pueden subir archivos, crear carpetas y organizarlas fácilmente desde la interfaz gráfica.
 
-<img src="captures/29.png" alt="Subida de archivos" width="1000" height="500">
+<img src="29.png" alt="Subida de archivos" width="1000" height="500">
 
 ---
 
@@ -57,7 +57,7 @@ Se pueden subir archivos, crear carpetas y organizarlas fácilmente desde la int
 
 Desde la sección de configuración, es posible crear nuevos usuarios y asignarles roles como administrador, editor o lector.
 
-<img src="captures/30.png" alt="Gestión de usuarios" width="1000" height="500">
+<img src="30.png" alt="Gestión de usuarios" width="1000" height="500">
 
 ---
 
@@ -65,7 +65,7 @@ Desde la sección de configuración, es posible crear nuevos usuarios y asignarl
 
 Los usuarios pueden compartir archivos o carpetas mediante enlaces públicos, con opciones como fecha de caducidad o protección por contraseña.
 
-<img src="captures/31.png" alt="Compartición de archivos" width="1000" height="500">
+<img src="31.png" alt="Compartición de archivos" width="1000" height="500">
 
 ---
 
@@ -73,7 +73,7 @@ Los usuarios pueden compartir archivos o carpetas mediante enlaces públicos, co
 
 El administrador puede establecer políticas de acceso, permisos y controlar las actividades dentro del entorno cloud.
 
-<img src="captures/32.png" alt="Opciones de seguridad" width="1000" height="500">
+<img src="32.png" alt="Opciones de seguridad" width="1000" height="500">
 
 ---
 
@@ -81,7 +81,7 @@ El administrador puede establecer políticas de acceso, permisos y controlar las
 
 Finalmente, se comprueba que ownCloud funciona correctamente, con usuarios conectados, archivos compartidos y sincronización activa.
 
-<img src="captures/33.png" alt="Entorno en funcionamiento" width="1000" height="500">
+<img src="33.png" alt="Entorno en funcionamiento" width="1000" height="500">
 
 ---
 
