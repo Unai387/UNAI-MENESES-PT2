@@ -1,26 +1,32 @@
 # UNAI-MENESES-PT2
-# Instal·lació i Configuració d'ownCloud mitjançant IsardVDI
+# Instalación y Configuración de ownCloud mediante IsardVDI
 
-## Descripció del projecte
+## Descripción del proyecto
 
-Aquest projecte consisteix en la instal·lació i configuració de **ownCloud** utilitzant **IsardVDI**. S'ha detallat el procés d'instal·lació en un entorn controlat, així com la configuració dels usuaris, rols, permisos i administració d'arxius dins de la plataforma.
+Este proyecto consiste en la instalación y configuración de **ownCloud** utilizando **IsardVDI**. Se ha detallado el proceso de instalación en un entorno controlado, así como la configuración de los usuarios, roles, permisos y administración de archivos dentro de la plataforma.
 
-L'objectiu principal és proporcionar una guia pas a pas per a la instal·lació, configuració i gestió d'ownCloud. Això permet una gestió eficient dels arxius i l'assignació de permisos de forma senzilla i segura.
+El objetivo principal es proporcionar una guía paso a paso para la instalación, configuración y gestión de ownCloud. Esto permite una gestión eficiente de los archivos y la asignación de permisos de forma sencilla y segura.
 
-## Enllaços als altres fitxers
+## Dificultades encontradas
 
-A continuació es mostren els enllaços als fitxers més detallats per a la instal·lació i configuració:
+Durante la instalación de ownCloud, surgieron algunos contratiempos que fue necesario resolver:
 
-- [Manual d'Instal·lació d'ownCloud amb IsardVDI (INSTALLATION.md)](INSTALLATION.md): Aquest document explica tots els passos per instal·lar i configurar **ownCloud** mitjançant **IsardVDI**, incloent-hi captures de pantalla per a cada pas.
+- **Problemas de conexión con la base de datos MySQL/MariaDB**: Al principio, ownCloud no conseguía conectar con la base de datos debido a un error en el nombre del host. Se solucionó modificando la configuración y asegurándose de que el servicio estuviera activo.
   
-- [Manual de Configuració d'ownCloud (CONFIGURATION.md)](CONFIGURATION.md): Aquí es detallen els passos necessaris per configurar usuaris, rols, permisos i l'administració d'arxius dins de **ownCloud**.
+- **Permisos de escritura en el directorio de datos**: El instalador de ownCloud detectó que no tenía permisos para escribir en el directorio de almacenamiento. Esto se resolvió ajustando los permisos con `chown` y `chmod`.
 
-## Observacions
+- **Advertencias sobre módulos PHP faltantes**: Durante la instalación, el sistema notificó que faltaban algunas extensiones PHP necesarias (como `php-gd` y `php-mbstring`). Fue necesario instalarlas manualmente con el gestor de paquetes.
 
+Estos problemas fueron útiles para afianzar el conocimiento sobre la configuración del servidor web y la infraestructura de ownCloud.
 
+## Enlaces a los otros archivos
 
-## Autor
+A continuación se muestran los enlaces a los archivos más detallados para la instalación y configuración:
 
-- **Unai Meneses Pulido**
-- Més informació al repositori: [UNAI-MENESES-PT2](https://github.com/Unai387/UNAI-MENESES-PT2.git)
+- [Manual de Instalación de ownCloud con IsardVDI (INSTALLATION.md)](INSTALLATION.md): Este documento explica todos los pasos para instalar y configurar **ownCloud** mediante **IsardVDI**, incluyendo capturas de pantalla para cada paso.
+  
+- [Manual de Configuración de ownCloud (CONFIGURATION.md)](CONFIGURATION.md): Aquí se detallan los pasos necesarios para configurar usuarios, roles, permisos y la administración de archivos dentro de ownCloud.
 
+---
+
+**Autor:** Unai Meneses Pulido
