@@ -95,7 +95,7 @@ Antes de comenzar, actualizamos los repositorios y el sistema:
 sudo apt update
 sudo apt upgrade
 ```
-<img src="3.png" alt="8" width="500" height="500">
+<img src="9.png" alt="8" width="500" height="500">
 
 <img src="10.png" alt="8" width="500" height="500">
 
@@ -150,7 +150,7 @@ Ejecutamos dentro de la consola MySQL:
 ```bash
 CREATE DATABASE bbdd;
 ```
-<img src="17.png" alt="8" width="500" height="500">
+<img src="16.png" alt="8" width="500" height="500">
 
 ### 2.3. Creación de usuario y asignación de permisos
 
@@ -159,7 +159,7 @@ CREATE USER 'usuario'@'localhost' IDENTIFIED WITH mysql_native_password BY 'pass
 GRANT ALL ON bbdd.* to 'usuario'@'localhost';
 exit
 ```
-<img src="18.png" alt="8" width="500" height="500">
+<img src="16.png" alt="8" width="500" height="500">
 
 ## 3. Instalación de la aplicación web
 
@@ -172,20 +172,20 @@ sudo unzip app-web.zip
 sudo cp -R app-web/. /var/www/html
 sudo rm -rf app-web/
 ```
-<img src="17.png" alt="zip">
+<img src="17.png" alt="8" width="500" height="500">
 
-<img src="18.png" alt="sudo apt ">
+<img src="18.png" alt="8" width="500" height="500">
 
-<img src="19.png" alt="unzip">
+<img src="19.png" alt="8" width="500" height="500">
 
-<img src="20.png" alt="rm">
+<img src="20.png" alt="8" width="500" height="500">
 
 ### 3.2. Eliminación de index.html
 
 ```bash
 sudo rm -rf /var/www/html/index.html
 ```
-<img src="21.png" alt="index">
+<img src="21.png" alt="8" width="500" height="500">
 
 ### 3.3. Configuración de permisos
 
@@ -194,9 +194,9 @@ cd /var/www/html
 sudo chmod -R 775 .
 sudo chown -R usuario:www-data .
 ```
-<img src="18.png" alt="cd">
+<img src="18.png" alt="8" width="500" height="500">
 
-<img src="22.png" alt="permisos">
+<img src="22.png" alt="8" width="500" height="500">
 
 ## 4. Acceso a ownCloud con los siguientes datos
 
