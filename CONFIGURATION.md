@@ -5,7 +5,7 @@ Este documento explica paso a paso cómo instalar y configurar ownCloud en un en
 
 ---
 
-## 1. Inicio del proceso de instalación
+## 1. Inicio del proceso de configuración
 
 Abrimos un navegador web y accedemos a localhost, ahí se almacenara OwnCloud. Hacemos clic donde pone `owncloud/`
 
@@ -23,3 +23,25 @@ La cual es la siguiente:
    - **Servidor**: localhost
 
 <img src="23.png" alt="Pantalla inicial de ownCloud" width="1000" height="750">
+
+## 3. Inicio de sesion
+
+Iniciamos sesion con el nombre de usuario y contraseña escogida en el paso anterior.
+
+<img src="24.png" alt="Pantalla inicial de ownCloud" width="1000" height="750">
+
+## 4. Creación de usuarios
+
+Para hacer esta parte de la configuración tendremos que hacer clic arriba a la derecha, en la parte que pone el nombre, seguidamente entrareis al apartado llamado **Users**, en el cual tendreis que crear dos usuarios y dos grupos llamados **Visualitzador** y **Editor**, un usuario creado tiene que ir a un grupo diferente, en la parte de arriba verás unos recuadros que pone:
+
+# | [Username](#) | [E-Mail](#) | [Groups ▼](#) | [Create](#) |
+
+En esos recuadros tendras que crear los usuarios, en el apartado de **Groups** selecciona **Editor** o **Visualitzador**, crea dos usuarios, uno para cada grupo.
+
+<img src="25.png" alt="Pantalla inicial de ownCloud" width="1000" height="750">
+
+## 5. Compartir ficheros y asignar permisos
+
+Para hacer este paso necesitaremos crear una carpeta o utilizar una existente, haremos clic en el signo de compartir.
+
+Iremos al apartado llamado **Sharing** exactamente a **Users and Groups**, seleccionaremos el nombre de los grupos a los que les queremos modificar los permisos, le daremos al icono de la tuerca para modificar los permisos, seleccionaremos los permisos que nosotros queramos.
