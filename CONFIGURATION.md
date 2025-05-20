@@ -69,3 +69,6 @@ Para utilizar los **Public links** necesitaremos ir al apartado de **Sharing**, 
 <img src="32.png" alt="ownCloud" width="1000" height="750">
 
 <img src="33.png" alt="ownCloud" width="1000" height="750">
+
+## 7. Acceso remoto a owncloud
+
