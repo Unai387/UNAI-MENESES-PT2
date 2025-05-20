@@ -44,4 +44,28 @@ En esos recuadros tendras que crear los usuarios, en el apartado de **Groups** s
 
 Para hacer este paso necesitaremos crear una carpeta o utilizar una existente, haremos clic en el signo de compartir.
 
-Iremos al apartado llamado **Sharing** exactamente a **Users and Groups**, seleccionaremos el nombre de los grupos a los que les queremos modificar los permisos, le daremos al icono de la tuerca para modificar los permisos, seleccionaremos los permisos que nosotros queramos.
+Iremos al apartado llamado **Sharing** exactamente a **Users and Groups**, seleccionaremos el nombre de los grupos a los que les queremos modificar los permisos, le daremos al icono de la tuerca para modificarlos y seleccionaremos los permisos que nosotros queramos.
+
+<img src="26.png" alt="ownCloud" width="1000" height="750">
+
+<img src="27.png" alt="ownCloud" width="1000" height="750">
+
+<img src="28.png" alt="ownCloud" width="1000" height="750">
+
+En la siguiente foto se puede ver que al iniciar sesión con un usuario al cual le has modificado los permisos no puede compartir los ficheros:
+
+<img src="29.png" alt="ownCloud" width="1000" height="750">
+
+En esta foto se puede ver que el usuario tiene permisos de creación de archivos dentro de la carpeta compartida:
+
+<img src="30.png" alt="ownCloud" width="1000" height="750">
+
+## 6. Administración de archivos
+
+Para utilizar los **Public links** necesitaremos ir al apartado de **Sharing**, sea de una carpeta ya creada o nueva, volveremos a seleccionar los permisos para cada grupo, seguidamente a la derecha de **User and Groups** veremos la opción de **Public links**, haremos clic, pondremos el nombre del link, los permisos que les queremos asignar, una contraseña y la expiración, le damos a **Share** y tendremos nuestro public link.
+
+<img src="31.png" alt="ownCloud" width="1000" height="750">
+
+<img src="32.png" alt="ownCloud" width="1000" height="750">
+
+<img src="33.png" alt="ownCloud" width="1000" height="750">
