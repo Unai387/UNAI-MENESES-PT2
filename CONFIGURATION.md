@@ -72,3 +72,49 @@ Para utilizar los **Public links** necesitaremos ir al apartado de **Sharing**, 
 
 ## 7. Acceso remoto a owncloud
 
+En este paso configuraremos el acceso remoto a owncloud desde un otra red diferente.
+
+Dentro de **IsardVDI** le daremos a editar nuestra maquina, bajaremos hasta encontrar la parte que dice **Xarxes** y seleccionaremos la que se llama **puigcastellar1**, a continuación le daremos a enviar y entraremos a la maquina.
+
+<img src="isard1.png" alt="ownCloud" width="1000" height="750">
+
+<img src="isard2.png" alt="ownCloud" width="1000" height="750">
+
+Después de acceder a la maquina virtual, utilizaremos el siguiente comando para ver nuestra ip:
+
+```bash
+ip -c a
+```
+<img src="34.png" alt="ownCloud" width="1000" height="750"> 
+
+Esa ip es la que utilizaremos para poder acceder desde otra red a nuestra owncloud.
+
+<img src="35.png" alt="ownCloud" width="1000" height="750"> 
+
+Seguidamente utilizaremos el siguiente comando dentro de la maquina virtual:
+
+```bash
+sudo nano /var/www/html/owncloud/config/config.php
+```
+Aqui tendremos que modificar el config.php con la ip que hemos obtenido del comando anterior:
+
+<img src="36.png" alt="ownCloud" width="1000" height="750"> 
+
+Justo debajo de: **0 => 'localhost'**
+
+Añadiremos otra linea en la cual ponga lo siguiente: **1 => '**ip obtenida del primer comando**'**
+La coma que aparece después de la comillas habrá que eliminarla para que funcione el acceso a owncloud desde la ip, aqui va un ejemplo de como no se tiene que ver y como si se tiene que ver:
+
+**MAL:**
+```bash
+1 => '192.168.236.159',
+```
+**BIEN:**
+```bash
+1 => '192.168.236.159'
+```
+Después de esto haremos **Ctrl + O** para guardar el config.php y **Ctrl + X** para salir del config.php.
+
+Comprobaremos el acceso a la owncloud desde cualquier otro dispositivo, utilizando la ip obtenida.
+
+Si tienes acceso a la owncloud ya tendrás toda la configuración realizada correctamente.
