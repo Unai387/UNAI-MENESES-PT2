@@ -22,40 +22,40 @@ Actualiza las listas de paquetes e instala los prerrequisitos:
 ```bash
 sudo apt install software-properties-common -y
 ```
-<img src="1.png" alt="1" width="500" height="500">
+<img src="1.png" alt="1" width="1000" height="750">
 
 Instalación de herramientas necesarias:
 
 ```bash
 LC_ALL=C.UTF-8 sudo add-apt-repository ppa:ondrej/php -y
 ```
-<img src="2.png" alt="2" width="500" height="500">
+<img src="2.png" alt="2" width="1000" height="750">
 
 Actualiza los repositorios:
 
 ```bash
 sudo apt update
 ```
-<img src="3.png" alt="3" width="500" height="500">
+<img src="3.png" alt="3" width="1000" height="750">
 
 Instala PHP 7.4:
 
 ```bash
 sudo apt install php7.4 -y
 ```
-<img src="4.png" alt="4" width="500" height="500">
+<img src="4.png" alt="4" width="1000" height="750">
 
 Instala las librerias de apache2:
 
 ```bash
 sudo apt install -y php libapache2-mod-php7.4
 ```
-<img src="5.png" alt="5" width="500" height="500">
+<img src="5.png" alt="5" width="1000" height="750">
 
 ```bash
 sudo apt install -y php7.4-fpm php7.4-common php7.4-mbstring php7.4-xmlrpc php7.4-soap php7.4-gd php7.4-xml php7.4-intl php7.4-mysql php7.4-cli php7.4-ldap php7.4-zip php7.4-curl
 ```
-<img src="6.png" alt="6" width="500" height="500">
+<img src="6.png" alt="6" width="1000" height="750">
 
 Configura la versión de PHP:
 
@@ -97,7 +97,7 @@ sudo apt upgrade
 ```
 <img src="9.png" alt="8" width="1000" height="500">
 
-<img src="10.png" alt="8" width="500" height="500">
+<img src="10.png" alt="8" width="1000" height="750">
 
 <img src="10b.png" alt="8" width="1000" height="500">
 
