@@ -78,7 +78,7 @@ Dentro de **IsardVDI** le daremos a editar nuestra maquina, bajaremos hasta enco
 
 <img src="isard1.png" alt="ownCloud" width="1000" height="750">
 
-<img src="isard2.png" alt="ownCloud" width="1000" height="1000">
+<img src="isard2.png" alt="Configuració de hardware a Isard" style="max-width: 100; height: auto;">
 
 Después de acceder a la maquina virtual, utilizaremos el siguiente comando para ver nuestra ip:
 
