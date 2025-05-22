@@ -132,7 +132,7 @@ sudo apt install -y php-fpm php-common php-mbstring php-xmlrpc php-soap php-gd p
 ```bash
 sudo systemctl restart apache2
 ```
-<img src="15.png" alt="8" width="1000" height="1000">
+<img src="15.png" alt="8" width="2000" height="500">
 
 ## 2. Configuración de MySQL
 
